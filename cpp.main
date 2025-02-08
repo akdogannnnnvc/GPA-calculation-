@@ -1,0 +1,48 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main ()
+{
+   int number;
+   cout<<"enter a number:";
+   cin >> number;
+   
+    if ( number>0 && number<=20 )
+    {
+        cout <<"your not DD"<<"\n";
+    }
+    if (number>20 && number<=40)
+    {
+        cout << "your not DC"<<"\n";
+    }
+    if (number>40 && number<=60)
+    {
+        cout<<"your not CC"<<"\n";
+    }
+    if (number>60 && number<=80)
+    {
+        cout<<"your not CB"<<"\n";
+    }
+    if (number>80 && number<=100)
+    {
+        cout<<"your not BB"<<"\n";
+    } 
+    else 
+    {
+        cout<<"please enter another a number";
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
